@@ -68,10 +68,24 @@ h5 {
 
 .tk-list div {
     font-size: 30px;
-    border: 3px solid tomato;
-    background-color: aliceblue;
+    
     padding: 30px;
     margin: 2px;
     border-radius: 5px;
 }
 
+.tk-color {
+    border: 3px solid tomato;
+    background-color: rgb(244, 219, 217);
+
+}
+.tk{
+    background-color: aliceblue;
+}
+input{
+    margin-top: 50px;
+    height: 100%;
+    width:100%;
+    border:3px solid red;
+    border-top: 0;
+}
