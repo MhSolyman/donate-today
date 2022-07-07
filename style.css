@@ -50,6 +50,8 @@ button {
 
 .amount-donet {
     text-align: center;
+    width: 70%;
+    margin-left: 15%;
 }
 
 .amount-donet-eliment {
@@ -68,7 +70,7 @@ h5 {
 
 .tk-list div {
     font-size: 30px;
-    
+
     padding: 30px;
     margin: 2px;
     border-radius: 5px;
@@ -79,13 +81,43 @@ h5 {
     background-color: rgb(244, 219, 217);
 
 }
-.tk{
+
+.tk {
     background-color: aliceblue;
 }
-input{
+
+input {
     margin-top: 50px;
     height: 100%;
-    width:100%;
-    border:3px solid red;
+    width: 100%;
+    border: 3px solid rgb(84, 83, 83);
     border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    width: 70%;
+    font-size: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.button-a{
+    margin-bottom: 60px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(22, 13, 13);
+
+    padding-top: 6px;
+    padding-bottom: 41px;
+}
+
+.footer-h5 {
+    color: tomato;
+    padding-top: 50px;
+    margin: auto;
+}
+
+.footer-p {
+    color: white;
 }
