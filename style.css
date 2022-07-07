@@ -19,14 +19,14 @@ body {
 }
 
 h1 {
-    text-align: center;
+
     font-size: 72px;
     margin-bottom: 10px;
 }
 
 
 p {
-    text-align: center;
+
     font-size: 24px;
 }
 
@@ -35,6 +35,7 @@ button {
     background-color: tomato;
     border-radius: 10px;
     border: 0;
+    padding: 15px 10px 20px 10px;
 
 }
 
@@ -86,7 +87,7 @@ h5 {
     background-color: aliceblue;
 }
 
-input {
+.tk-input {
     margin-top: 50px;
     height: 100%;
     width: 100%;
@@ -100,17 +101,101 @@ input {
     text-align: center;
     margin-bottom: 15px;
 }
-.button-a{
+
+a {
     margin-bottom: 60px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+.donate-plan-one {
+    text-align: center;
+}
+
+.donate-plan-eliments {
+    display: flex;
+    justify-content: center;
+    margin: 0 72px 0 72px;
+
+}
+
+.donate-plan-eliments div {
+    font-size: 30px;
+
+    padding-top: 20px;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+#one {
+    background-color: rgb(223, 248, 248);
+}
+
+#two {
+    background-color: rgb(252, 229, 252);
+}
+
+#three {
+    background-color: antiquewhite;
+}
+
+.donation {
+    margin: 10%;
+}
+
+.donation-flex {
+    display: flex;
+}
+
+.donation-flex-one {
+    margin-top: 5%;
+    width: 50%;
+
+}
+
+.img {
+    width: 100%;
+    border-radius: 10px;
+    margin: 10%;
+}
+
+.email-one {
+    background-color: antiquewhite;
+    text-align: center;
+    margin: 0 25%;
+    padding: 63px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.email-no {
+
+    text-align: center;
+}
+
+
+.email-input {
+
+    padding: 22px 106px;
+    padding-top: 27px;
+    padding-left: 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: aliceblue;
+
+
 }
 
 footer {
     text-align: center;
-    background-color: rgb(22, 13, 13);
+    background-color: rgb(2, 6, 36);
 
     padding-top: 6px;
     padding-bottom: 41px;
 }
+
 
 .footer-h5 {
     color: tomato;
@@ -120,4 +205,6 @@ footer {
 
 .footer-p {
     color: white;
+    font-size: 32px;
+
 }
